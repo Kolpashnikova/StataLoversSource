@@ -28,8 +28,7 @@ pip install StataLovers
 ## Example 1: summarize
 
 ```
-import StataLovers
-StataLovers.summarize(["BirthYear", "Year", "Married", "Health"], df)
+summarize(["BirthYear", "Year", "Married", "Health"], df)
 ```
 **Output**
 
@@ -45,7 +44,7 @@ StataLovers.summarize(["BirthYear", "Year", "Married", "Health"], df)
 ## Example 2: tab
 
 ```
-StataLovers.tab(df['Health'])
+tab(df['Health'])
 ```
 **Output**
 ```
@@ -68,7 +67,7 @@ StataLovers.tab(df['Health'])
 ## Example 3: tab
 
 ```
-StataLovers.tab(df["Health"], df["Female"])
+tab(df["Health"], df["Female"])
 ```
 **Output**
 
