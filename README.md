@@ -4,6 +4,8 @@
 
 This package contains two functions that are produce similar output as Stata's tab and sum functions.
 
+The package can be found on PyPi: https://pypi.org/project/StataLovers/
+
 ## Installation
 
 ```
